@@ -1,0 +1,32 @@
+body {
+    background-color: rgba(239, 216, 187, 0.872);
+}
+.container {
+    text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+hr {
+    color: rgb(13, 74, 74);
+}
+#pic {
+    height:120px;
+    width:120px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+table {
+    margin: 0 auto;
+}
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+li {
+    color: blue;
+}
